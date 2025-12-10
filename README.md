@@ -128,5 +128,5 @@ See the LICENSE file in the repository. If no license is present, consider addin
 
 ## Author / Contact
 
-Oubaida ASSLADDAY
-Mohamed ARJAZ
+- Oubaida ASSLADDAY
+- Mohamed ARJAZ
