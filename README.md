@@ -27,41 +27,6 @@ Key goals:
 
 > Note: The exact entity/generic/port names used in this README are intentionally generic. Please adapt the examples to the actual names defined in the VHDL sources in this repository.
 
-## Repository layout (example)
-
-- src/ — VHDL source files (UART core, helpers)
-- tb/ — testbenches and simulation harnesses
-- sim/ — simulation scripts and example waveforms (VCD/GBTK)
-- constraints/ — example XDC/SDC constraint files (for FPGA)
-- docs/ — design notes and datasheets
-- LICENSE — license file (if present)
-
-## Quick start — Simulation (GHDL)
-
-Example: simulate the UART testbench with GHDL and view waveform in GTKWave.
-
-1. Analyze sources:
-```bash
-ghdl -a src/*.vhd tb/*.vhd
-```
-
-2. Elaborate the testbench (replace `tb_uart` with the actual testbench entity name):
-```bash
-ghdl -e tb_uart
-```
-
-3. Run and produce a VCD file:
-```bash
-ghdl -r tb_uart --vcd=uart.vcd
-```
-
-4. Open waveform:
-```bash
-gtkwave uart.vcd
-```
-
-ModelSim/Questa users can use the included `tb/` scripts or create a do-file to compile and run the testbenches.
-
 ## Example instantiation
 
 Adapt this example to match the actual entity name and port names in this repo:
@@ -90,14 +55,6 @@ u_uart : entity work.uart_core
 Baud generator note:
 - Typical implementation divides the system clock by (CLOCK_FREQ/BAUD_RATE) (or an integer clock tick multiplier) to generate bit timing.
 - Ensure the divider fits in the chosen generics and implementation.
-
-## Running tests
-
-- The `tb/` directory contains testbenches that exercise common UART scenarios:
-  - simple TX-only loopback
-  - RX framing checks
-  - parity and stop-bit edge cases (if implemented)
-- Use GHDL, ModelSim, or your preferred simulator to run the testbenches and inspect waveforms.
 
 ## Synthesis notes
 
