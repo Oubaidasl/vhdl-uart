@@ -4,7 +4,7 @@ A simple, synthesizable UART (Universal Asynchronous Receiver/Transmitter) imple
 
 ## Overview
 
-This project implements a configurable UART transmitter and receiver in VHDL with a focus on clarity and portability. The core is written to be synthesizable with common FPGA toolchains and easy to simulate with GHDL/ModelSim/Questa.
+This project implements a configurable UART transmitter and receiver in VHDL with a focus on clarity and portability. The core is written to be synthesizable with common FPGA toolchains and easy to simulate with VHDL/ModelSim/Questa.
 
 Key goals:
 - Small, readable VHDL source
