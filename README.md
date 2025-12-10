@@ -81,7 +81,7 @@ Please include simulation results and, where applicable, synthesis reports for s
 
 ## License
 
-See the LICENSE file in the repository. If no license is present, consider adding an open-source license such as MIT, BSD-3, or Apache-2.0 to clarify reuse terms.
+This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
 
 ## Author / Contact
 
