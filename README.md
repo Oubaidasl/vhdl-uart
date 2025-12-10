@@ -128,8 +128,5 @@ See the LICENSE file in the repository. If no license is present, consider addin
 
 ## Author / Contact
 
-Repository: Oubaidasl/vhdl-uart
-
-If you want the README to include exact instantiation names, examples that match the real VHDL entity/port names, or a tailored simulation/synthesis guide for a specific toolchain (Vivado/Quartus), tell me which files or entities I should reference and I will update the README accordingly.
-
-Happy hacking!
+Oubaida ASSLADDAY
+Mohamed ARJAZ
